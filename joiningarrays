@@ -1,0 +1,19 @@
+import java.util.*;
+class Greeshma
+{
+    public static void main(String args[])
+    {
+         ArrayList<String> g=new ArrayList<String>();
+         g.add("Ravi");
+         g.add("Greeshma");
+         g.add("Arumilli");
+         System.out.println("list g:"  +g);
+         ArrayList<String> g1=new ArrayList<String>();
+         g1.add("Srinivasu");
+         g1.add("Ratna");
+         System.out.println("List g1:" +g1);
+         g1.addAll(g);
+         System.out.println("Array in sort order:" +g1);
+    }
+}
+  
